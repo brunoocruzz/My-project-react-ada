@@ -1,0 +1,21 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fffbf0;
+  color: #181c23;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .task-item p{
+  margin: 30px 60px;
+  padding: 40px;
+  border-radius: 4px;
+
+  background-color: #a5a8ae;
+}
